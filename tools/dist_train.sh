@@ -1,5 +1,7 @@
-CONFIG=$1
-GPUS=$2
+CONFIG=/opt/data/private/xtt_OPS/OPS/configs/ops/ops-vit-b16_coco-stuff164k-640x640.py
+GPUS=4
+# CONFIG=$1
+# GPUS=$2
 NNODES=${NNODES:-1}
 NODE_RANK=${NODE_RANK:-0}
 PORT=${PORT:-29500}
